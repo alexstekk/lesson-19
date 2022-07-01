@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<title>Lesson 19. Суперсила SCSS + GULP</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header-top">
+				<div class="header-top__container">
+					<div class="header-top__work-time">
+						Mon-Thu:<span>9:00 AM - 5:30 PM</span>
+					</div>
+					<div class="header-top__info">
+						<span>Visit our showroom in 1234 Street Adress City Address, 1234</span>
+						<a href="#" class="header-top__link">Contact Us</a>
+					</div>
+					<div class="header-top__contacts">
+						<a href="tel:000000000" class="header-top__link">Call Us: (00) 1234 5678</a>
+						<div class="header-top__icons">
+							<a href="#" class="header-top__icon">
+								<img src="img/icons/social/facebook-icon-white.svg" alt="facebook">
+							</a>
+							<a href="#" class="header-top__icon">
+								<img src="img/icons/social/instagram-icon-white.svg" alt="instagram">
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="header-bottom">
+				<div class="header-bottom__container">
+					<div class="header-bottom__column header-bottom__column_left">
+						<a href="#" class="header-bottom__logo"><img src="img/header/content/logo.svg" alt="logo"></a>
+						<div class="header__menu menu">
+							<div class="header-bottom__logo-mobile">
+								<img src="img/header/content/logo-white.svg" alt="logo">
+							</div>
+							<button type="button" class="menu__icon icon-menu"><span></span></button>
+							<nav class="menu__body">
+								<ul class="menu__list">
+									<li class="menu__item"><a href="#" class="menu__link">Laptops</a></li>
+									<li class="menu__item"><a href="#" class="menu__link">Desktop PCs</a></li>
+									<li class="menu__item"><a href="#" class="menu__link">Networking Devices</a></li>
+									<li class="menu__item"><a href="#" class="menu__link">Laptops</a></li>
+									<li class="menu__item"><a href="#" class="menu__link">Desktop PCs</a></li>
+									<li class="menu__item"><a href="#" class="menu__link">Networking Devices</a></li>
+									<li class="menu__item"><a href="#" class="menu__link">Printers & Scanners</a></li>
+									<li class="menu__item"><a href="#" class="menu__link menu__link_deals">Our Deals</a></li>
+								</ul>
+							</nav>
+						</div>
+						<div class="search-form">
+							<form action="#" class="search-form__form">
+								<input autocomplete="off" type="text" name="form[]" data-error="Ошибка" data-value="" class="search-form__input" placeholder="Search here"></input>
+							</form>
+						</div>
+					</div>
+					<div class="header-bottom__column header-bottom__column_right">
+						<div class="header-bottom__icons">
+							<a href="#" class="header-bottom__icon">
+								<img src="img/icons/search.svg" alt="search">
+							</a>
+							<a href="#" class="header-bottom__icon header-bottom__icon_cart">
+								<img src="img/icons/shopping-cart.svg" alt="cart">
+								<span>2</span>
+							</a>
+							<a href="#" class="header-bottom__icon-mobile header-bottom__icon-mobile_cart">
+								<img src="img/icons/cart-withe.svg" alt="cart">
+								<span>2</span>
+							</a>
+						</div>
+						<div class="header-bottom__account">
+							<a href="#" class="header-bottom__avatar-desktop">
+								<img src="img/header/content/avatar.jpg" alt="avatar">
+							</a>
+							<a href="#" class="header-bottom__account-mobile">
+								<img src="img/header/icons/avatar-mob.svg" alt="avatar">
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+		<main class="page">
+			<div class="breadcrumps">
+				<div class="breadcrumps__container">
+					<ul class="breadcrumps__list">
+						<li class="breadcrumps__item">
+							<a href="#" class="breadcrumps__link">Home</a>
+						</li>
+						<li class="breadcrumps__item breadcrumps__item_active">
+							About Us
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="page__container">
+				<h2 class="about-us__title title">About Us</h2>
+			</div>
+			<div class="slider">
+				<div class="slider__swiper">
+					<div class="slider__slide">111</div>
+					<div class="slider__slide">222</div>
+				</div>
+				<div class="about__more more__item_prev"></div>
+				<div class="about__more more__item_next"></div>
+				<div class="slider-quality__pagging"></div>
+			</div>
+	</div>
+	<div class="about-us">
+		<div class="about-us__item about-us__item_black">
+			<div class="item-about-us">
+				<div class="item-about-us__container">
+					<div class="item-about-us__row">
+						<div class="item-about-us__column">
+							<div class="item-about-us__texts">
+								<h3 class="item-about-us__title item-about-us__title_decor item-about-us__title_decor-01">A Family That Keeps On Growing</h3>
+								<div class="item-about-us__text">
+									<p>We always aim to please the home market, supplying great computers and hardware at great prices to non-corporate customers, through our large Melbourne CBD showroom and our online store.</p>
+									<p>Shop management approach fosters a strong customer service focus in our staff. We prefer to cultivate long-term client relationships rather than achieve quick sales, demonstrated in the measure of our long-term success.</p>
+								</div>
+							</div>
+						</div>
+						<div class="item-about-us__column">
+							<div class="item-about-us__img _ibg">
+								<img src="img/about/content/01.jpg" alt="picture">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="about-us__item about-us__item_reverse">
+			<div class="item-about-us">
+				<div class="item-about-us__container">
+					<div class="item-about-us__row">
+						<div class="item-about-us__column">
+							<div class="item-about-us__texts">
+								<h3 class="item-about-us__title item-about-us__title_decor item-about-us__title_decor-02">shop.com</h3>
+								<div class="item-about-us__text">
+									<p>Shop is a proudly Australian owned, Melbourne based supplier of I.T. goods and services, operating since 1991. Our client base encompasses individuals, small business, corporate and government organisations. We provide complete business IT solutions, centred on high quality hardware and exceptional customer service.</p>
+								</div>
+							</div>
+						</div>
+						<div class="item-about-us__column">
+							<div class="item-about-us__img _ibg">
+								<img src="img/about/content/02.jpg" alt="picture">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="about-us__item about-us__item_black">
+			<div class="item-about-us">
+				<div class="item-about-us__container">
+					<div class="item-about-us__row">
+						<div class="item-about-us__column">
+							<div class="item-about-us__texts">
+								<h3 class="item-about-us__title item-about-us__title_decor item-about-us__title_decor-03">You're In Safe Hands</h3>
+								<div class="item-about-us__text">
+									<p>Experience a 40% boost in computing from last generation. MSI Desktop equips the 10th Gen. Intel® Core™ i7 processor with the upmost computing power to bring you an unparalleled gaming experience.</p>
+									<p>*Performance compared to i7-9700. Specs varies by model.</p>
+								</div>
+							</div>
+						</div>
+						<div class="item-about-us__column">
+							<div class="item-about-us__img _ibg">
+								<img src="img/about/content/03.png" alt="picture">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="about-us__item about-us__item_reverse">
+			<div class="item-about-us">
+				<div class="item-about-us__container">
+					<div class="item-about-us__row">
+						<div class="item-about-us__column">
+							<div class="item-about-us__texts">
+								<h3 class="item-about-us__title item-about-us__title_decor item-about-us__title_decor-04">The Highest Quality of Products</h3>
+								<div class="item-about-us__text">
+									<p>We guarantee the highest quality of the products we sell. Several decades of successful operation and millions of happy customers let us feel certain about that. Besides, all items we sell pass thorough quality control, so no characteristics mismatch can escape the eye of our professionals.</p>
+
+								</div>
+							</div>
+						</div>
+						<div class="item-about-us__column">
+							<div class="item-about-us__img _ibg">
+								<img src="img/about/content/04.jpg" alt="picture">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="about-us__item about-us__item_black">
+			<div class="item-about-us">
+				<div class="item-about-us__container">
+					<div class="item-about-us__row">
+						<div class="item-about-us__column">
+							<div class="item-about-us__texts">
+								<h3 class="item-about-us__title item-about-us__title_decor item-about-us__title_decor-02">Delivery to All Regions</h3>
+								<div class="item-about-us__text">
+									<p>We deliver our goods all across Australia. No matter where you live, your order will be shipped in time and delivered right to your door or to any other location you have stated. The packages are handled with utmost care, so the ordered products will be handed to you safe and sound, just like you expect them to be.</p>
+								</div>
+							</div>
+						</div>
+						<div class="item-about-us__column">
+							<div class="item-about-us__img _ibg">
+								<img src="img/about/content/05.png" alt="picture">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="review">
+		<div class="review__container">
+			<div class="review__body">
+				<div class="review__slide slide-review">
+					<div class="slide-review__body">
+						<div class="slide-review__text">
+							<div class="slide-review__decor">
+								<img src="img/icons/quotes.svg" alt="quotes">
+							</div>
+							My first order arrived today in perfect condition. From the time I sent a question about the item to making the purchase, to the shipping and now the delivery, your company, Tecs, has stayed in touch. Such great service. I look forward to shopping on your site in the future and would highly recommend it.
+						</div>
+						<div class="slide-review__autor">Tama Brown</div>
+						<div class="slide-review__footer">
+							<a href="#" class="slide-review__btn btn">Leave Us A Review</a>
+							<div class="slide-review__dots">
+								<div class="slide-review__dot slide-review__dot_active"></div>
+								<div class="slide-review__dot"></div>
+								<div class="slide-review__dot"></div>
+								<div class="slide-review__dot"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	</main>
+	<footer class="footer">
+		<div class="footer__top">
+			<div class="footer__container">
+				<div class="footer__adv adv-footer">
+					<div class="adv-footer__row">
+						<div class="adv-footer__column">
+							<div class="adv-footer_item item-footer-adv">
+								<div class="item-footer-adv__img">
+									<img src="img/footer/icons/01.svg" alt="icon">
+								</div>
+								<div class="item-footer-adv__title">Product Support</div>
+								<div class="item-footer-adv__text">Up to 3 years on-site warranty available for your peace of mind.</div>
+							</div>
+						</div>
+						<div class="adv-footer__column">
+							<div class="adv-footer_item item-footer-adv">
+								<div class="item-footer-adv__img">
+									<img src="img/footer/icons/02.svg" alt="icon">
+								</div>
+								<div class="item-footer-adv__title">Personal Account</div>
+								<div class="item-footer-adv__text">With big discounts, free delivery and a dedicated support specialist.</div>
+							</div>
+						</div>
+						<div class="adv-footer__column">
+							<div class="adv-footer_item item-footer-adv">
+								<div class="item-footer-adv__img">
+									<img src="img/footer/icons/03.svg" alt="icon">
+								</div>
+								<div class="item-footer-adv__title">Amazing Savings</div>
+								<div class="item-footer-adv__text">Up to 70% off new Products, you can be sure of the best price.</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="footer__bottom">
+			<div class="footer__container">
+				<div class="bottom-footer">
+					<div class="bottom-footer__sign-up footer-sign-up-form">
+						<div class="footer-sign-up-form__column">
+							<div class="footer-sign-up-form__title">Sign Up To Our Newsletter.</div>
+							<div class="footer-sign-up-form__subtitle">Be the first to hear about the latest offers.</div>
+						</div>
+						<div class="footer-sign-up-form__column">
+							<form action="#" class="footer-sign-up-form__form">
+								<div class="footer-sign-up-form__item">
+									<input class="footer-sign-up-form__input" type="email" name="sign-up" id="sign-up" required placeholder="Your Email">
+									<button class="footer-sign-up-form__btn" type="submit">Subscribe</button>
+								</div>
+							</form>
+						</div>
+					</div>
+					<div class="bottom-footer__catalog catalog-bottom-footer">
+						<div data-spollers="992,max" class="catalog-bottom-footer__lists">
+							<div class="catalog-bottom-footer__item">
+								<button type="button" data-spoller class="catalog-bottom-footer__title">Information</button>
+								<ul class="catalog-bottom-footer__list">
+									<li class="catalog-bottom-footer__list-item"><a href="#" class="catalog-bottom-footer__link">About Us</a></li>
+									<li class="catalog-bottom-footer__list-item"><a href="#" class="catalog-bottom-footer__link">About Zip</a></li>
+									<li class="catalog-bottom-footer__list-item"><a href="#" class="catalog-bottom-footer__link">Privacy Policy</a></li>
+									<li class="catalog-bottom-footer__list-item"><a href="#" class="catalog-bottom-footer__link">Search</a></li>
+									<li class="catalog-bottom-footer__list-item"><a href="#" class="catalog-bottom-footer__link">Terms</a></li>
+									<li class="catalog-bottom-footer__list-item"><a href="#" class="catalog-bottom-footer__link">Orders and Returns</a></li>
+									<li class="catalog-bottom-footer__list-item"><a href="#" class="catalog-bottom-footer__link">Contact Us</a></li>
+									<li class="catalog-bottom-footer__list-item"><a href="#" class="catalog-bottom-footer__link">Advanced Search</a></li>
+									<li class="catalog-bottom-footer__list-item"><a href="#" class="catalog-bottom-footer__link">Newsletter Subscription</a></li>
+								</ul>
+							</div>
+							<div class="catalog-bottom-footer__item">
+								<button type="button" data-spoller class="catalog-bottom-footer__title">PC Parts</button>
+								<ul class="catalog-bottom-footer__list">
+									<li class="catalog-bottom-footer__list-item"><a href="#" class="catalog-bottom-footer__link">CPUS</a></li>
+									<li class="catalog-bottom-footer__list-item"><a href="#" class="catalog-bottom-footer__link">Add On Cards</a></li>
+									<li class="catalog-bottom-footer__list-item"><a href="#" class="catalog-bottom-footer__link">Hard Drives (Internal)</a></li>
+									<li class="catalog-bottom-footer__list-item"><a href="#" class="catalog-bottom-footer__link">Graphic Cards</a></li>
+									<li class="catalog-bottom-footer__list-item"><a href="#" class="catalog-bottom-footer__link">Keyboards / Mice</a></li>
+									<li class="catalog-bottom-footer__list-item"><a href="#" class="catalog-bottom-footer__link">Cases / Power Supplies / Cooling</a></li>
+									<li class="catalog-bottom-footer__list-item"><a href="#" class="catalog-bottom-footer__link">RAM (Memory)</a></li>
+									<li class="catalog-bottom-footer__list-item"><a href="#" class="catalog-bottom-footer__link">Software</a></li>
+									<li class="catalog-bottom-footer__list-item"><a href="#" class="catalog-bottom-footer__link">Speakers / Headsets</a></li>
+									<li class="catalog-bottom-footer__list-item"><a href="#" class="catalog-bottom-footer__link">Motherboards</a></li>
+								</ul>
+							</div>
+							<div class="catalog-bottom-footer__item">
+								<button type="button" data-spoller class="catalog-bottom-footer__title">Desktop PCs</button>
+								<ul class="catalog-bottom-footer__list">
+									<li class="catalog-bottom-footer__list-item"><a href="#" class="catalog-bottom-footer__link">Custom PCs</a></li>
+									<li class="catalog-bottom-footer__list-item"><a href="#" class="catalog-bottom-footer__link">Servers</a></li>
+									<li class="catalog-bottom-footer__list-item"><a href="#" class="catalog-bottom-footer__link">MSI All-In-One PCs</a></li>
+									<li class="catalog-bottom-footer__list-item"><a href="#" class="catalog-bottom-footer__link">HP/Compaq PCs</a></li>
+									<li class="catalog-bottom-footer__list-item"><a href="#" class="catalog-bottom-footer__link">ASUS PCs</a></li>
+									<li class="catalog-bottom-footer__list-item"><a href="#" class="catalog-bottom-footer__link">Tecs PCs</a></li>
+								</ul>
+							</div>
+							<div class="catalog-bottom-footer__item">
+								<button type="button" data-spoller class="catalog-bottom-footer__title">Laptops</button>
+								<ul class="catalog-bottom-footer__list">
+									<li class="catalog-bottom-footer__list-item"><a href="#" class="catalog-bottom-footer__link">Evryday Use Notebooks</a></li>
+									<li class="catalog-bottom-footer__list-item"><a href="#" class="catalog-bottom-footer__link">MSI Workstation Series</a></li>
+									<li class="catalog-bottom-footer__list-item"><a href="#" class="catalog-bottom-footer__link">MSI Prestige Series</a></li>
+									<li class="catalog-bottom-footer__list-item"><a href="#" class="catalog-bottom-footer__link">Tablets and Pads</a></li>
+									<li class="catalog-bottom-footer__list-item"><a href="#" class="catalog-bottom-footer__link">Netbooks</a></li>
+									<li class="catalog-bottom-footer__list-item"><a href="#" class="catalog-bottom-footer__link">Infinity Gaming Notebooks</a></li>
+								</ul>
+							</div>
+							<div class="catalog-bottom-footer__item">
+								<button type="button" data-spoller class="catalog-bottom-footer__title">Address</button>
+								<ul class="catalog-bottom-footer__list">
+									<li class="catalog-bottom-footer__list-item">Address: 1234 Street Adress City Address, 1234</li>
+									<li class="catalog-bottom-footer__list-item">Phones:<a href="#" class="catalog-bottom-footer__link catalog-bottom-footer__link_contacts">(00) 1234 5678</a></li>
+									<li class="catalog-bottom-footer__list-item">We are open: Monday-Thursday: 9:00 AM - 5:30 PM</li>
+									<li class="catalog-bottom-footer__list-item">Friday: 9:00 AM - 6:00 PM</li>
+									<li class="catalog-bottom-footer__list-item">Saturday: 11:00 AM - 5:00 PM</li>
+									<li class="catalog-bottom-footer__list-item">E-mail:<a href="mailto:mail@mail.ru" class="catalog-bottom-footer__link catalog-bottom-footer__link_contacts">shop@email.com</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="footer__very-bottom">
+			<div class="footer__container">
+				<div class="very-bottom-footer">
+					<div class="very-bottom-footer__row">
+						<div class="very-bottom-footer__social">
+							<div class="very-bottom-footer__social-icon">
+								<a href="#"><img src="img/icons/social/facebook-icon-white.svg" alt="facebook"></a>
+							</div>
+							<div class="very-bottom-footer__social-icon">
+								<a href=""><img src="img/icons/social/instagram-icon-white.svg" alt="instagram"></a>
+							</div>
+						</div>
+						<div class="very-bottom-footer__payment">
+							<div class="very-bottom-footer__payment-icon">
+								<img src="img/footer/payment/01.svg" alt="payment1">
+							</div>
+							<div class="very-bottom-footer__payment-icon">
+								<img src="img/footer/payment/02.svg" alt="payment2">
+							</div>
+							<div class="very-bottom-footer__payment-icon">
+								<img src="img/footer/payment/03.svg" alt="payment3">
+							</div>
+							<div class="very-bottom-footer__payment-icon">
+								<img src="img/footer/payment/04.svg" alt="payment4">
+							</div>
+							<div class="very-bottom-footer__payment-icon">
+								<img src="img/footer/payment/05.svg" alt="payment5">
+							</div>
+						</div>
+						<div class="very-bottom-footer__copy">Copyright © 2020 Shop Pty. Ltd.</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	</div>
+	<!-- <div class="hystmodal" id="myPopup" aria-hidden="true">
+	<div class="hystmodal__wrap">
+		<div class="hystmodal__window" role="dialog" aria-modal="true">
+			<button data-hystclose class="hystmodal__close">Закрыть</button>
+		</div>
+	</div>
+</div>
+<div class="hystmodal" id="massageName" aria-hidden="true">
+	<div class="hystmodal__wrap">
+		<div class="hystmodal__window" role="dialog" aria-modal="true">
+			<button data-hystclose class="hystmodal__close">Закрыть</button>
+			Сообщение
+		</div>
+	</div>
+</div>
+ -->
+	<script src="js/app.min.js"></script>
+</body>
+
+</html>
